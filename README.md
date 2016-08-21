@@ -1,9 +1,9 @@
 # EasyDrive-EcoDrive
 Android OBD-II application for encouraging economical driving
 
-This project is the tool used for the conduction of field studies, performed for my Master Thesis. 
+This project is the tool used for the conduction experiment, performed for my Master Thesis. 
 
-It involves the development of an Android application that encourages eco – driving.
+It involves the development of an Android application that encourages eco–driving.
 
 The application, through the usage of OBD-II diagnostic protocol and Bluetooth communication with ELM327 device, collects, displays, processes and stores, in real time, data concerning vehicle speed, RPM and Throttle Position.
 The application development was based in the project petrolr_OBDTerminal (https://github.com/M-Helm/petrolr_OBDTerminal), in which we performed all the desired changes and amendments, in order to implement the required functionality.
