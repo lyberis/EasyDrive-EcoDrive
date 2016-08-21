@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+
+    <string name="app_name">EasyDrive -> EcoDrive</string>
+    <string name="action_settings">Settings</string>
+    <string name="geek_view">Geek View</string>
+    <string name="data_view">Data View</string>
+ 
+   	<string name="start">Start</string>
+
+    <string name="display">Data View Box</string>  
+    <string name="action_start">Start</string> 
+    
+    <string name="command_button">Έναρξη Διαδρομής</string>
+    <string name="stop_command">Λήξη Διαδρομής</string>
+    
+    
+        <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Προσπάθεια Σύνδεσης&#8230;</string>
+    <string name="title_connected_to">Συνδεδεμένο</string>
+    <string name="title_not_connected">Μη Συνδεδεμένο</string>
+    
+        <!--  DeviceListActivity -->
+    <string name="scanning">Σάρωση&#8230;</string>
+    <string name="select_BTdevice">Επιλογή Συσκευής</string>
+    <string name="none_paired">Καμία Συσκευή σε Ζεύξη</string>
+    <string name="none_found">Δεν βρέθηκαν Συσκευές</string>
+    <string name="title_paired_devices">Συσκευές με Ζεύξη</string>
+    <string name="title_other_devices">Λοιπες Διαθέσιμες Συσκευές</string>
+    <string name="button_scan">Εύρεση Συσκευών</string>
+    
+    
+</resources>

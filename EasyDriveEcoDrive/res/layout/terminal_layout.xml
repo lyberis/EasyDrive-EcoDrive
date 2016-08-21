@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+        
+    <Button
+        android:id="@+id/start_command"
+        android:background="@drawable/btn_white"
+        android:text="@string/command_button"
+        android:textColor="#000000" />
+   
+    <EditText
+        android:id="@+id/edit_level"
+        android:background="#585858"
+        android:inputType="text"
+        android:textColor="#3ADF00"
+        android:textSize="20sp" />
+      	
+    <Space
+  		android:layout_width="1dp"
+  		android:layout_height="50dp"/>
+  	
+  	<EditText
+        android:id="@+id/edit_rpm"
+        android:background="#000000"
+        android:inputType="text"
+        android:textColor="#3ADF00"
+        android:textSize="20sp" />
+    
+    <ProgressBar
+        android:id="@+id/progress_rpm"
+        android:layout_width="121dp" 
+		android:layout_height="60dp" 
+		android:progress="0"
+		android:max="6000" 
+		android:secondaryProgress="0"
+		style="?android:attr/progressBarStyleHorizontal" 
+		android:progressDrawable="@drawable/myprogressbar" 
+		android:layout_marginTop="10dp"
+		/>
+
+    <EditText
+        android:id="@+id/edit_throttle"
+        android:background="#000000"
+        android:inputType="text"
+        android:textColor="#3ADF00"
+        android:textSize="20sp" />
+    
+    <ProgressBar
+        android:id="@+id/progress_throttle"
+        android:layout_width="121dp" 
+		android:layout_height="60dp" 
+		android:progress="0"
+		android:max="70" 
+		android:secondaryProgress="0"
+		style="?android:attr/progressBarStyleHorizontal" 
+		android:progressDrawable="@drawable/myprogressbar" 
+		android:layout_marginTop="10dp"
+		/>
+    
+    <Space
+  		android:layout_width="1dp"
+  		android:layout_height="30dp"/>
+    
+    <EditText
+        android:id="@+id/edit_speed"
+        android:background="#000000"
+        android:inputType="text"
+        android:textColor="#3ADF00"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_distance"
+        android:background="#000000"
+        android:inputType="text"
+        android:textColor="#3ADF00"
+        android:textSize="20sp" />
+        
+
+    
+</TableLayout>
